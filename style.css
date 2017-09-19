@@ -1,0 +1,33 @@
+body {
+    background-color: dimgrey;
+}
+
+.container {
+    width: 300px;
+    height: 250px;
+    background: url('imgs/advert-background.jpg');
+    background-size: contain;
+    cursor: pointer;
+    margin: 30px auto;
+    position: relative;
+}
+.tagline {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #535353
+}
+
+.tagline span {
+    display: block;
+}
+
+.tagTop {
+    padding-left: 10px;
+}
+
+.tagBot {
+    text-align: right;
+    padding-right: 40px;
+}
