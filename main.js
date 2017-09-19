@@ -5,17 +5,17 @@ const openPhotoSwipe = () => {
     // build items array
     const items = [
         {
-            src: 'imgs/Ski-Ride-Snowboard-New-Zealand-Mt-Dobson-HEROhomepage-gallery.jpg',
+            src: './imgs/Ski-Ride-Snowboard-New-Zealand-Mt-Dobson-HEROhomepage-gallery.jpg',
             w: 600,
             h: 400
         },
         {
-            src: 'imgs/Ski-Ride-Snowboard-New-Zealand-Mt-Hutt-3homepage-gallery.jpg',
+            src: './imgs/Ski-Ride-Snowboard-New-Zealand-Mt-Hutt-3homepage-gallery.jpg',
             w: 600,
             h: 400
         },
         {
-            src: 'imgs/Ski-Ride-Snowboard-New-Zealand-Queenstown-1homepage-gallery.jpg',
+            src: './imgs/Ski-Ride-Snowboard-New-Zealand-Queenstown-1homepage-gallery.jpg',
             w: 600,
             h: 400
         }
