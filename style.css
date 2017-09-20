@@ -1,22 +1,27 @@
 body {
-    background-color: dimgrey;
+    background-color: #9ec3d1;
 }
 
 .container {
     width: 300px;
     height: 250px;
+/*
     background: url('./imgs/advert-background.jpg');
     background-size: contain;
+*/
     cursor: pointer;
     margin: 30px auto;
     position: relative;
 }
+
 .tagline {
     position: absolute;
     bottom: 0;
     width: 100%;
     font-family: 'Lato', sans-serif;
-    color: #535353
+    color: #535353;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .tagline span {
@@ -33,7 +38,28 @@ body {
     padding-bottom: 5px;
 }
 
-.pswp__button {
-    width: 60px;
-    height: 60px;
+.logo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+#swipe {
+    position: relative;
+    list-style: none;
+    z-index: 100;
+}
+
+ul {
+    padding: 0;
+}
+
+#swipe-container li {
+    float: left;
+}
+
+#swipe-container li img {
+    width: 300px;
+    height: 250px;
 }
