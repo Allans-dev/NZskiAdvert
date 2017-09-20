@@ -1,1 +1,4 @@
-$("#swipe-container").dragend();
+$( document ).ready(function() {
+    $("#swipe-container").dragend();
+});
+
