@@ -1,6 +1,5 @@
 # NZskiAdvert
 Mobile specific advert for Big Mobile application.
 
-http://photoswipe.com
-
-for plugin.
+Skills & Technologies used:
+HTML5, CCS3, jQuery, dragend plugin, Photoshop
